@@ -1,4 +1,4 @@
-from question1.verification import account_creation
+from verification import account_creation
 def test_case():
     assert account_creation("Ankitha9@gmail.com","Anki1234",5,"123456","123456")=="Account created"
     assert account_creation("","Anki1234",5,"123456","123456")=="email or password missing"
